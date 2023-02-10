@@ -1,0 +1,20 @@
+.FooterNavLinks {
+	position: relative;
+	display: flex;
+    flex-direction: column;
+    gap : 0.75rem ;
+}
+.FooterNavLinks a {
+	font-size: 14px;
+	transition: 200ms;
+    margin: 0.5rem;
+}
+
+.FooterNavLinks a:hover {
+	text-decoration: underline;
+	font-size: 16px;
+}
+
+.Footer a {
+	transform: translateX(-100px);
+}

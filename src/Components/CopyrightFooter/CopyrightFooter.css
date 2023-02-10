@@ -1,0 +1,11 @@
+.CopyrightFooter {
+	background-color: var(--accent);
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	color: var(--primary);
+    font-size: 12px;
+    border-top: 0.5px solid var(--primary);
+}

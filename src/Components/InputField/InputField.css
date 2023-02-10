@@ -1,0 +1,64 @@
+.InputField {
+	position: relative;
+	margin-top: 1.5rem;
+    height : 2.75rem ;
+    
+}
+
+.InputField input {
+	/* outline: none; */
+	border: 1px solid var(--secondary);
+	font-size: 14px;
+	padding: 0.5rem 0.75rem;
+	border-radius: 0.25rem;
+    width : 80%
+}
+
+.InputField input::placeholder {
+	opacity: 0;
+}
+
+.InputField label {
+	position: absolute;
+    font-size: 14px;
+	left: 0.5rem;
+	top: 0.55rem;
+	opacity: 0.5;
+	pointer-events: none;
+	transition: 250ms ease-in-out;
+	background-color: var(--primary);
+
+}
+
+.InputField label::before,
+.InputField label::after {
+	content: "";
+	background: var(--primary);
+	width: 0.3rem;
+	display: inline-flex;
+	position: relative;
+	top: 0.2rem;
+}
+
+.InputField input:not(:placeholder-shown) ~ label {
+	font-size: 0.6rem;
+	font-weight: bold;
+	position: absolute;
+	top: -0.5rem;
+	opacity: 1;
+    color : var(--accent) ;
+}
+
+.InputField input:not(:placeholder-shown) {
+	outline: none;
+    border :  2px solid var(--accent) ;
+    position: absolute;
+	opacity: 1;
+    
+}
+
+.InputField input:focus {
+    outline: none ;
+    border: 2px solid var(--accent);
+    box-shadow: 0px 0px 8px var(--accent_light);
+}

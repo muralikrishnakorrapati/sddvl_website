@@ -1,0 +1,42 @@
+.FooterCompanyInfo {
+	position: relative;
+}
+
+.CompanyLogoName {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	cursor: pointer;
+}
+
+.CompanyLogoName:hover img,
+.CompanyLogoName:hover p {
+	scale: 1.05;
+}
+
+.FooterCompanyLogo img {
+	width: 72px;
+	cursor: pointer;
+	border-radius: 1rem;
+	box-shadow: 0px 0px 100px var(--primary) inset;
+	transition: 200ms ease-in-out;
+}
+
+.FooterCompanyName p {
+	font-size: 1.15rem;
+	font-weight: bold;
+	color: var(--primary);
+	transition: 200ms ease-in-out;
+}
+
+.FooterCompanyCaption {
+	width: 100%;
+	margin: 0.5rem auto;
+}
+
+.FooterSocialMediaLinks {
+    margin-top: 1rem;
+    display: flex;
+    gap : 1rem;
+
+}

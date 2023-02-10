@@ -1,0 +1,36 @@
+.FooterContactUsInfo {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.FooterContactUsInfoContainer {
+    display: flex;
+    flex-direction: column;
+    gap : 1rem;
+
+}
+
+.FooterlocationContainer,
+.FooterMailIdContainer,
+.FooterMobileNumberContainer {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.FooterlocationContainer div,
+.FooterMailIdContainer div,
+.FooterMobileNumberContainer div {
+	display: flex;
+	flex-direction: column;
+}
+
+.FooterlocationContainer svg,
+.FooterMailIdContainer svg,
+.FooterMobileNumberContainer svg {
+	width: 25px;
+	height: auto;
+}
+

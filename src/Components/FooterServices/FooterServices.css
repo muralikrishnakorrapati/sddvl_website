@@ -1,0 +1,18 @@
+.FooterServices {
+    position: relative;
+    display: flex ;
+    flex-direction: column;
+    gap : 1rem ;
+
+}
+
+.FooterServices h3 {
+    width : 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.FooterServicesList {
+    display: flex;
+    gap : 0.75rem ;
+}

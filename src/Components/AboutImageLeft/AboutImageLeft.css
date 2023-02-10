@@ -1,0 +1,25 @@
+.AboutImageLeft {
+	position: relative;
+	margin: 1rem min(80px, 5%);
+}
+
+.AboutImageLeftContainer {
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 2rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.AboutImageLeftImage {
+	width: 50vw;
+}
+
+.AboutImageLeftHeading {
+	color: var(--accent);
+}
+
+.AboutImageLeftContent p {
+	margin: 2rem;
+	text-align: justify;
+}

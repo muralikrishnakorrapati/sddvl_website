@@ -1,0 +1,19 @@
+.ContactUs {
+	position: relative;
+	animation: componentRender 1s linear;
+    position: relative;
+    margin: 1.5rem min(80px, 5%);
+}
+
+.ContactUsImg {
+	width: 45vw;
+
+}
+
+.ContactUsContainer { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}

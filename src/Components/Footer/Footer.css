@@ -1,0 +1,61 @@
+.Footer {
+	background-color: var(--accent);
+	padding: 2.5rem;
+	color: var(--primary);
+	fill: var(--primary);
+	display: flex;
+	justify-content: space-between;
+}
+
+.Footer p,
+.Footer a {
+	font-size: 14px;
+	color: var(--primary);
+}
+
+.Footer .FooterCompanyInfo,
+.Footer .FooterContactUsInfo {
+	width: 30%;
+}
+
+.Footer .FooterNavLinks {
+	width: 150px;
+}
+.Footer .FooterServices {
+	width: 450px;
+}
+
+.Footer .OurLinksAndServices {
+	display: flex;
+    justify-content: space-between;
+	flex-direction: row;
+}
+
+@media (width <= 840px) {
+	.Footer {
+		background-color: var(--accent);
+		padding: 2rem 3rem;
+		color: var(--primary);
+		fill: var(--primary);
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+	.Footer .FooterCompanyInfo,
+	.Footer .FooterContactUsInfo,
+	.Footer .FooterNavLinks {
+		width: 100%;
+	}
+	.OurLinksAndServices {
+		display: flex;
+		flex-direction: row;
+		margin: 0 10%;
+	}
+
+	 .FooterNavLinks {
+		width: 20%;
+	}
+	.FooterServices {
+		width: 60%;
+	}
+}

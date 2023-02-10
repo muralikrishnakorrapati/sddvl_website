@@ -1,0 +1,25 @@
+.AboutImageRight {
+	position: relative;
+	margin: 1.5rem min(80px, 5%);
+}
+
+.AboutImageRightContainer {
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.AboutImageRightImage {
+	width: 50vw;
+}
+
+.AboutImageRightHeading {
+	color: var(--accent);
+}
+
+.AboutImageRightContent p {
+    margin: 2rem;
+    text-align: justify;
+}
+

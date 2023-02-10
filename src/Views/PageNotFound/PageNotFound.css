@@ -1,0 +1,6 @@
+.pageNotFoundImageContainer {
+    position: relative;
+	animation: componentRender 1s linear;
+	width: 100vw;
+	height: 90vh;
+}

@@ -1,0 +1,20 @@
+.BusinessHours {
+	position: relative;
+    font-size: 14px;
+	font-weight: 700;
+	width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap : 1.5rem ;
+}
+
+.BusinessHoursTimings {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem ;
+}
+
+.BusinessHoursTimingsInfo {
+	display: flex;
+	justify-content: space-between;
+}

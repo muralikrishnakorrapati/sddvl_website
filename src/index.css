@@ -1,0 +1,8 @@
+.lightTheme {
+	/* THEME COLORS */
+	--primary: #ffffff;
+	--secondary: #000000;
+	--accent: #055ba6;
+	--accent_dark: #032e54;
+	--accent_light: #5cb0fa;
+}
